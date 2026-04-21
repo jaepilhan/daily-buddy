@@ -41,7 +41,7 @@ export default function ArticleCard({ article, levelKey, isoDate }: ArticleCardP
 
       {/* TTS button */}
       <div className="mt-3">
-        <TtsButton categoryColor={cat.tabColor} />
+        <TtsButton categoryColor={cat.tabColor} text={article.body.join(" ")} />
       </div>
     </div>
   );
