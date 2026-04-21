@@ -2,7 +2,7 @@ export type CategoryId =
   | "amazing_world"
   | "economy"
   | "tech"
-  | "kpop"
+  | "entertainment"
   | "sports";
 
 export type LevelKey = "little_buddy" | "explorer_buddy" | "pro_buddy";

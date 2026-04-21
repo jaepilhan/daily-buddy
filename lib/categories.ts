@@ -29,9 +29,9 @@ export const CATEGORIES: CategoryConfig[] = [
     borderColor: "border-blue-300",
   },
   {
-    id: "kpop",
-    label: "K-pop",
-    emoji: "🎤",
+    id: "entertainment",
+    label: "Entertainment",
+    emoji: "🎬",
     tabColor: "bg-pink-400 text-white",
     bgColor: "bg-pink-50",
     patternColor: "bg-pink-100",

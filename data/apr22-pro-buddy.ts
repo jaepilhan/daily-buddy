@@ -79,8 +79,8 @@ export const apr22ProBuddy: DailyContent = {
       ]
     },
     {
-      id: "2026-04-22-kpop-pro",
-      category: "kpop",
+      id: "2026-04-22-entertainment-pro",
+      category: "entertainment",
       headline: "BTS Reunion: What Four Years of Military Service Means for K-pop's Biggest Act",
       body: [
         "Hey Buddies, let's break down what's arguably the biggest entertainment story of 2026.",

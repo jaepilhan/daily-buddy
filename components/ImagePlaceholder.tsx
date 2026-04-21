@@ -14,7 +14,7 @@ const CAT_NUMBERS: Record<CategoryId, number> = {
   amazing_world: 1,
   economy: 2,
   tech: 3,
-  kpop: 4,
+  entertainment: 4,
   sports: 5,
 };
 

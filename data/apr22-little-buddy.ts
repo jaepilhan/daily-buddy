@@ -145,8 +145,8 @@ export const apr22LittleBuddy: DailyContent = {
       ],
     },
     {
-      id: "2026-04-22-kpop",
-      category: "kpop",
+      id: "2026-04-22-entertainment",
+      category: "entertainment",
       headline: "BTS Is Back Together!",
       body: [
         "Do you know BTS? They are a music group from Korea. 🇰🇷 They sing and dance. Many, many people love them. People ALL over the world!",

@@ -78,8 +78,8 @@ export const apr22ExplorerBuddy: DailyContent = {
       ]
     },
     {
-      id: "2026-04-22-kpop-explorer",
-      category: "kpop",
+      id: "2026-04-22-entertainment-explorer",
+      category: "entertainment",
       headline: "BTS Is Back — And Fans Can't Stop Celebrating!",
       body: [
         "Welcome back to Daily Buddy! Let's talk about the biggest music news of the year.",
