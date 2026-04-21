@@ -19,11 +19,11 @@ export const apr22ExplorerBuddy: DailyContent = {
         "You don't have to do something huge. Picking up trash, planting a flower, or turning off the water while brushing your teeth — it all counts!"
       ],
       vocab: [
-        { word: "pollution", meaning: "오염 — dirty air, water, or land caused by waste" },
-        { word: "theme", meaning: "주제 — the main idea or topic of an event" },
-        { word: "billion", meaning: "10억 — a very, very large number (1,000,000,000)" },
-        { word: "celebrate", meaning: "축하하다 — to do something special for an event" },
-        { word: "protect", meaning: "보호하다 — to keep something safe from harm" }
+        { word: "pollution", sound: "puh-LOO-shun", meaning: "오염 — dirty air, water, or land caused by waste" },
+        { word: "theme", sound: "THEEM", meaning: "주제 — the main idea or topic of an event" },
+        { word: "billion", sound: "BIL-yun", meaning: "10억 — a very, very large number (1,000,000,000)" },
+        { word: "celebrate", sound: "SEL-uh-brayt", meaning: "축하하다 — to do something special for an event" },
+        { word: "protect", sound: "pruh-TEKT", meaning: "보호하다 — to keep something safe from harm" }
       ],
       quiz: [
         { question: "When did Earth Day start?", options: ["1950", "1970", "1990"], answerIndex: 1 },
@@ -42,11 +42,11 @@ export const apr22ExplorerBuddy: DailyContent = {
         "The cool part? You don't need a lot of money to start. Many kid businesses begin with things you already have at home. Old toys, drawings, homemade snacks — anything can become a product!"
       ],
       vocab: [
-        { word: "business", meaning: "사업 — making or selling things for money" },
-        { word: "customer", meaning: "고객 — a person who buys something" },
-        { word: "earn", meaning: "벌다 — to get money by working" },
-        { word: "product", meaning: "제품 — something you make or sell" },
-        { word: "skill", meaning: "기술 — something you learn to do well" }
+        { word: "business", sound: "BIZ-niss", meaning: "사업 — making or selling things for money" },
+        { word: "customer", sound: "KUS-tuh-mer", meaning: "고객 — a person who buys something" },
+        { word: "earn", sound: "URN", meaning: "벌다 — to get money by working" },
+        { word: "product", sound: "PRAHD-ukt", meaning: "제품 — something you make or sell" },
+        { word: "skill", sound: "SKIL", meaning: "기술 — something you learn to do well" }
       ],
       quiz: [
         { question: "What did the 9-year-old girl sell?", options: ["Cookies", "Candles", "Books"], answerIndex: 1 },
@@ -65,11 +65,11 @@ export const apr22ExplorerBuddy: DailyContent = {
         "The robot fish can swim about 30 millimeters per second. That's not very fast, but scientists say it's a great start. They hope to make bigger and faster versions in the future."
       ],
       vocab: [
-        { word: "scientist", meaning: "과학자 — a person who studies how things work" },
-        { word: "microplastic", meaning: "미세 플라스틱 — tiny pieces of plastic in the environment" },
-        { word: "packaging", meaning: "포장재 — material used to wrap products" },
-        { word: "accidentally", meaning: "실수로 — without meaning to do it" },
-        { word: "version", meaning: "버전 — an updated or different form of something" }
+        { word: "scientist", sound: "SY-un-tist", meaning: "과학자 — a person who studies how things work" },
+        { word: "microplastic", sound: "MY-kroh-PLAS-tik", meaning: "미세 플라스틱 — tiny pieces of plastic in the environment" },
+        { word: "packaging", sound: "PAK-ij-ing", meaning: "포장재 — material used to wrap products" },
+        { word: "accidentally", sound: "ak-SID-en-tul-ee", meaning: "실수로 — without meaning to do it" },
+        { word: "version", sound: "VUR-zhun", meaning: "버전 — an updated or different form of something" }
       ],
       quiz: [
         { question: "How big is the robot fish?", options: ["1.3 meters", "1.3 centimeters", "13 centimeters"], answerIndex: 1 },
@@ -89,11 +89,11 @@ export const apr22ExplorerBuddy: DailyContent = {
         "They're already working on new songs and planning a world tour. The ARMY (that's what BTS fans call themselves) is ready!"
       ],
       vocab: [
-        { word: "military", meaning: "군대 — the armed forces that protect a country" },
-        { word: "reunite", meaning: "재결합하다 — to come together again after being apart" },
-        { word: "official", meaning: "공식적인 — announced or confirmed by the right people" },
-        { word: "social media", meaning: "소셜 미디어 — apps like Instagram and TikTok" },
-        { word: "tour", meaning: "투어 — traveling to different places to perform" }
+        { word: "military", sound: "MIL-ih-teh-ree", meaning: "군대 — the armed forces that protect a country" },
+        { word: "reunite", sound: "ree-yoo-NYT", meaning: "재결합하다 — to come together again after being apart" },
+        { word: "official", sound: "uh-FISH-ul", meaning: "공식적인 — announced or confirmed by the right people" },
+        { word: "social media", sound: "SOH-shul MEE-dee-uh", meaning: "소셜 미디어 — apps like Instagram and TikTok" },
+        { word: "tour", sound: "TOOR", meaning: "투어 — traveling to different places to perform" }
       ],
       quiz: [
         { question: "Why did BTS take a break?", options: ["They were tired", "Military service", "They broke up"], answerIndex: 1 },
@@ -112,11 +112,11 @@ export const apr22ExplorerBuddy: DailyContent = {
         "Youth soccer tournaments are happening all around the world right now. Many professional players started their careers at these kinds of events when they were young."
       ],
       vocab: [
-        { word: "tournament", meaning: "토너먼트 — a competition with many teams or players" },
-        { word: "dribble", meaning: "드리블하다 — to move the ball forward with small kicks" },
-        { word: "defender", meaning: "수비수 — a player who tries to stop the other team" },
-        { word: "goalkeeper", meaning: "골키퍼 — the player who guards the goal" },
-        { word: "career", meaning: "경력 — the work someone does over their lifetime" }
+        { word: "tournament", sound: "TOOR-nuh-ment", meaning: "토너먼트 — a competition with many teams or players" },
+        { word: "dribble", sound: "DRIB-ul", meaning: "드리블하다 — to move the ball forward with small kicks" },
+        { word: "defender", sound: "dih-FEN-der", meaning: "수비수 — a player who tries to stop the other team" },
+        { word: "goalkeeper", sound: "GOHL-kee-per", meaning: "골키퍼 — the player who guards the goal" },
+        { word: "career", sound: "kuh-REER", meaning: "경력 — the work someone does over their lifetime" }
       ],
       quiz: [
         { question: "How old was the soccer player?", options: ["8", "10", "12"], answerIndex: 1 },
@@ -127,6 +127,7 @@ export const apr22ExplorerBuddy: DailyContent = {
   ],
   bonusWord: {
     word: "protect",
+    sound: "pruh-TEKT",
     korean: "보호하다",
     example: "We should protect the Earth every day!",
     challenge: "Tell a friend: \"Let's protect our planet together!\" 🌍"

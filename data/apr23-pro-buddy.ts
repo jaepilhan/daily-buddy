@@ -19,11 +19,11 @@ export const apr23ProBuddy: DailyContent = {
         "The critical difference between then and now is speed. The Holocene melting occurred gradually over thousands of years, giving ecosystems time to adapt. Current warming is happening roughly 10 times faster, driven by greenhouse gas emissions from human activity."
       ],
       vocab: [
-        { word: "thermal", meaning: "열의 — relating to heat or temperature" },
-        { word: "vulnerable", meaning: "취약한 — easily damaged or at risk" },
-        { word: "catastrophic", meaning: "재앙적인 — causing great damage or suffering" },
-        { word: "ecosystem", meaning: "생태계 — all living things in an area and how they interact" },
-        { word: "greenhouse gas", meaning: "온실가스 — gases that trap heat in Earth's atmosphere" }
+        { word: "thermal", sound: "THUR-mul", meaning: "열의 — relating to heat or temperature" },
+        { word: "vulnerable", sound: "VUL-ner-uh-bul", meaning: "취약한 — easily damaged or at risk" },
+        { word: "catastrophic", sound: "kat-uh-STROF-ik", meaning: "재앙적인 — causing great damage or suffering" },
+        { word: "ecosystem", sound: "EE-koh-sis-tum", meaning: "생태계 — all living things in an area and how they interact" },
+        { word: "greenhouse gas", sound: "GREEN-hows GAS", meaning: "온실가스 — gases that trap heat in Earth's atmosphere" }
       ],
       quiz: [
         { question: "Why is the Prudhoe Dome melting significant?", options: ["It's the smallest ice area", "It was considered the most stable part", "It's the newest ice"], answerIndex: 1 },
@@ -43,11 +43,11 @@ export const apr23ProBuddy: DailyContent = {
         "Some economists argue that products like these should carry an \"environmental surcharge\" — an additional fee that funds cleanup or develops alternatives. Others suggest stricter regulations that require manufacturers to test and disclose the microplastic output of their products before they reach store shelves."
       ],
       vocab: [
-        { word: "externality", meaning: "외부효과 — a cost or benefit affecting someone not involved in a transaction" },
-        { word: "microplastic", meaning: "미세 플라스틱 — plastic particles smaller than 5mm" },
-        { word: "surcharge", meaning: "추가 요금 — an extra fee added to the normal price" },
-        { word: "regulation", meaning: "규제 — official rules controlling how things are done" },
-        { word: "disclose", meaning: "공개하다 — to make information known publicly" }
+        { word: "externality", sound: "ek-stur-NAL-ih-tee", meaning: "외부효과 — a cost or benefit affecting someone not involved in a transaction" },
+        { word: "microplastic", sound: "MY-kroh-PLAS-tik", meaning: "미세 플라스틱 — plastic particles smaller than 5mm" },
+        { word: "surcharge", sound: "SUR-charj", meaning: "추가 요금 — an extra fee added to the normal price" },
+        { word: "regulation", sound: "reg-yoo-LAY-shun", meaning: "규제 — official rules controlling how things are done" },
+        { word: "disclose", sound: "dis-KLOHZ", meaning: "공개하다 — to make information known publicly" }
       ],
       quiz: [
         { question: "What is a 'negative externality' in this context?", options: ["A product that doesn't work", "A cost not included in the product's price", "A negative review online"], answerIndex: 1 },
@@ -68,11 +68,11 @@ export const apr23ProBuddy: DailyContent = {
         "However, significant challenges remain. The current prototypes work only in controlled laboratory conditions. Integrating artificial neurons into a living brain without triggering immune rejection, maintaining long-term stability, and scaling the technology to handle the brain's complexity — estimated at 86 billion neurons — will require years of additional research."
       ],
       vocab: [
-        { word: "bidirectional", meaning: "양방향의 — working in both directions" },
-        { word: "synapse", meaning: "시냅스 — the tiny gap between neurons where signals pass" },
-        { word: "neurodegenerative", meaning: "신경퇴행성의 — diseases where nerve cells gradually break down" },
-        { word: "implant", meaning: "임플란트 — a device placed inside the body" },
-        { word: "immune rejection", meaning: "면역 거부 — the body attacking a foreign object" }
+        { word: "bidirectional", sound: "by-dih-REK-shun-ul", meaning: "양방향의 — working in both directions" },
+        { word: "synapse", sound: "SY-naps", meaning: "시냅스 — the tiny gap between neurons where signals pass" },
+        { word: "neurodegenerative", sound: "nyoor-oh-dih-JEN-er-uh-tiv", meaning: "신경퇴행성의 — diseases where nerve cells gradually break down" },
+        { word: "implant", sound: "IM-plant", meaning: "임플란트 — a device placed inside the body" },
+        { word: "immune rejection", sound: "ih-MYOON rih-JEK-shun", meaning: "면역 거부 — the body attacking a foreign object" }
       ],
       quiz: [
         { question: "What makes this achievement a 'first'?", options: ["First artificial brain ever made", "First bidirectional signaling between synthetic and biological neurons", "First time a printer was used in science"], answerIndex: 1 },
@@ -93,11 +93,11 @@ export const apr23ProBuddy: DailyContent = {
         "The collection will undergo years of analysis before being displayed publicly. Researchers hope isotopic analysis of the remains and artifacts will reveal details about the individual's diet, origin, and the trade networks that connected this region to the broader pre-Columbian world."
       ],
       vocab: [
-        { word: "pre-Columbian", meaning: "콜럼버스 이전의 — before Christopher Columbus arrived in the Americas" },
-        { word: "metallurgical", meaning: "야금의 — relating to the science of working with metals" },
-        { word: "hierarchy", meaning: "위계 — a system where people are ranked by status or authority" },
-        { word: "crossroads", meaning: "교차로 — a place where different cultures or paths meet" },
-        { word: "isotopic analysis", meaning: "동위원소 분석 — a scientific method to study the origin and age of materials" }
+        { word: "pre-Columbian", sound: "pree-kuh-LUM-bee-un", meaning: "콜럼버스 이전의 — before Christopher Columbus arrived in the Americas" },
+        { word: "metallurgical", sound: "met-uh-LUR-jih-kul", meaning: "야금의 — relating to the science of working with metals" },
+        { word: "hierarchy", sound: "HY-er-ar-kee", meaning: "위계 — a system where people are ranked by status or authority" },
+        { word: "crossroads", sound: "KROS-rohdz", meaning: "교차로 — a place where different cultures or paths meet" },
+        { word: "isotopic analysis", sound: "y-soh-TOP-ik uh-NAL-ih-sis", meaning: "동위원소 분석 — a scientific method to study the origin and age of materials" }
       ],
       quiz: [
         { question: "Why is this discovery especially valuable?", options: ["The gold is very expensive", "Very little is known about pre-Columbian Panamanian societies", "The tomb is very deep underground"], answerIndex: 1 },
@@ -118,11 +118,11 @@ export const apr23ProBuddy: DailyContent = {
         "The researchers emphasized that their findings support a simple public health message: any increase in walking is beneficial, and perfection isn't required. You don't need to hit 10,000 steps to see results."
       ],
       vocab: [
-        { word: "accelerometer", meaning: "가속도계 — a device that measures movement and steps" },
-        { word: "cardiovascular", meaning: "심혈관의 — relating to the heart and blood vessels" },
-        { word: "metabolic", meaning: "대사의 — relating to how the body processes food into energy" },
-        { word: "dose-response", meaning: "용량-반응 — more of something produces a stronger effect" },
-        { word: "mortality", meaning: "사망률 — the rate of death in a population" }
+        { word: "accelerometer", sound: "ak-sel-er-OM-ih-ter", meaning: "가속도계 — a device that measures movement and steps" },
+        { word: "cardiovascular", sound: "kar-dee-oh-VAS-kyoo-ler", meaning: "심혈관의 — relating to the heart and blood vessels" },
+        { word: "metabolic", sound: "met-uh-BOL-ik", meaning: "대사의 — relating to how the body processes food into energy" },
+        { word: "dose-response", sound: "DOHS rih-SPONS", meaning: "용량-반응 — more of something produces a stronger effect" },
+        { word: "mortality", sound: "mor-TAL-ih-tee", meaning: "사망률 — the rate of death in a population" }
       ],
       quiz: [
         { question: "What did the study find about the relationship between walking and sitting?", options: ["Sitting damage can't be fixed", "Walking can offset sitting risks", "Only running helps"], answerIndex: 1 },
@@ -133,6 +133,7 @@ export const apr23ProBuddy: DailyContent = {
   ],
   bonusWord: {
     word: "unprecedented",
+    sound: "un-PRES-ih-den-tid",
     korean: "전례 없는",
     example: "The discovery of gold artifacts in Panama was an unprecedented find for archeologists.",
     challenge: "Can you think of something unprecedented that happened in your life this year?"
