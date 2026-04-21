@@ -19,11 +19,11 @@ export const apr22ProBuddy: DailyContent = {
         "Denis Hayes, who organized the original 1970 Earth Day, put it this way: the movement proved that an engaged public can be an unstoppable force — and it can be again."
       ],
       vocab: [
-        { word: "grassroots", meaning: "풀뿌리 — organized by ordinary people, not leaders" },
-        { word: "civic", meaning: "시민의 — relating to citizens and community" },
-        { word: "retrenchment", meaning: "후퇴 — cutting back on progress or spending" },
-        { word: "renewable", meaning: "재생 가능한 — energy that won't run out (solar, wind)" },
-        { word: "activist", meaning: "활동가 — a person who works to create social change" }
+        { word: "grassroots", sound: "GRAS-roots", meaning: "풀뿌리 — organized by ordinary people, not leaders" },
+        { word: "civic", sound: "SIV-ik", meaning: "시민의 — relating to citizens and community" },
+        { word: "retrenchment", sound: "rih-TRENCH-ment", meaning: "후퇴 — cutting back on progress or spending" },
+        { word: "renewable", sound: "rih-NOO-uh-bul", meaning: "재생 가능한 — energy that won't run out (solar, wind)" },
+        { word: "activist", sound: "AK-tih-vist", meaning: "활동가 — a person who works to create social change" }
       ],
       quiz: [
         { question: "How has Earth Day grown since 1970?", options: ["It stayed the same size", "It grew to 193 countries and 1 billion people", "It became smaller over time"], answerIndex: 1 },
@@ -42,11 +42,11 @@ export const apr22ProBuddy: DailyContent = {
         "But there are important lessons too. Not every business succeeds, and learning to handle failure is part of the process. Financial literacy experts recommend that young entrepreneurs track their expenses, set prices that cover costs, and save a portion of their earnings."
       ],
       vocab: [
-        { word: "entrepreneur", meaning: "기업가 — a person who starts and runs a business" },
-        { word: "survey", meaning: "조사 — collecting information by asking questions" },
-        { word: "dramatically", meaning: "극적으로 — by a large amount, significantly" },
-        { word: "financial literacy", meaning: "금융 리터러시 — understanding how money works" },
-        { word: "expense", meaning: "비용 — money spent on something" }
+        { word: "entrepreneur", sound: "on-truh-pruh-NUR", meaning: "기업가 — a person who starts and runs a business" },
+        { word: "survey", sound: "SUR-vay", meaning: "조사 — collecting information by asking questions" },
+        { word: "dramatically", sound: "druh-MAT-ik-lee", meaning: "극적으로 — by a large amount, significantly" },
+        { word: "financial literacy", sound: "fih-NAN-shul LIT-er-uh-see", meaning: "금융 리터러시 — understanding how money works" },
+        { word: "expense", sound: "ik-SPENS", meaning: "비용 — money spent on something" }
       ],
       quiz: [
         { question: "What three factors drive the rise of kid entrepreneurs?", options: ["TV, radio, newspapers", "Social media access, low cost, school encouragement", "Government support, free products, luck"], answerIndex: 1 },
@@ -66,11 +66,11 @@ export const apr22ProBuddy: DailyContent = {
         "The technology is still in early stages — current prototypes work in controlled lab environments. Scaling this to open-ocean deployment will require significant engineering advances. But researchers say the proof of concept is promising."
       ],
       vocab: [
-        { word: "microplastic", meaning: "미세 플라스틱 — plastic particles smaller than 5mm" },
-        { word: "pervasive", meaning: "만연한 — spreading widely, found everywhere" },
-        { word: "prototype", meaning: "시제품 — an early model used for testing" },
-        { word: "ingest", meaning: "섭취하다 — to take food or substance into the body" },
-        { word: "deployment", meaning: "배치 — putting something into active use" }
+        { word: "microplastic", sound: "MY-kroh-PLAS-tik", meaning: "미세 플라스틱 — plastic particles smaller than 5mm" },
+        { word: "pervasive", sound: "per-VAY-siv", meaning: "만연한 — spreading widely, found everywhere" },
+        { word: "prototype", sound: "PROH-toh-typ", meaning: "시제품 — an early model used for testing" },
+        { word: "ingest", sound: "in-JEST", meaning: "섭취하다 — to take food or substance into the body" },
+        { word: "deployment", sound: "dih-PLOY-ment", meaning: "배치 — putting something into active use" }
       ],
       quiz: [
         { question: "How does the micro-robot collect plastic?", options: ["It uses nets", "Its material attracts and binds to plastic", "It burns the plastic"], answerIndex: 1 },
@@ -90,11 +90,11 @@ export const apr22ProBuddy: DailyContent = {
         "Now that they're back, the group has announced plans for new music, a documentary series, and a world tour expected to be the largest in K-pop history."
       ],
       vocab: [
-        { word: "staggered", meaning: "시차를 둔 — happening at different times, not all at once" },
-        { word: "mandatory", meaning: "의무적인 — required by law" },
-        { word: "exempt", meaning: "면제하다 — to free someone from a requirement" },
-        { word: "hiatus", meaning: "활동 중단 — a pause or break in activity" },
-        { word: "momentum", meaning: "추진력 — the force that keeps something moving forward" }
+        { word: "staggered", sound: "STAG-erd", meaning: "시차를 둔 — happening at different times, not all at once" },
+        { word: "mandatory", sound: "MAN-duh-toh-ree", meaning: "의무적인 — required by law" },
+        { word: "exempt", sound: "ig-ZEMPT", meaning: "면제하다 — to free someone from a requirement" },
+        { word: "hiatus", sound: "hy-AY-tus", meaning: "활동 중단 — a pause or break in activity" },
+        { word: "momentum", sound: "moh-MEN-tum", meaning: "추진력 — the force that keeps something moving forward" }
       ],
       quiz: [
         { question: "Why didn't Korea exempt BTS from military service?", options: ["BTS didn't want exemption", "The government decided against it", "There is no military in Korea"], answerIndex: 1 },
@@ -114,11 +114,11 @@ export const apr22ProBuddy: DailyContent = {
         "Critics argue that this system puts too much pressure on young children and can lead to burnout. Supporters counter that structured programs with proper safeguards actually protect young athletes better than informal, unregulated training."
       ],
       vocab: [
-        { word: "academy", meaning: "아카데미 — a specialized school for training" },
-        { word: "sophisticated", meaning: "정교한 — complex and well-developed" },
-        { word: "curriculum", meaning: "교육과정 — the subjects and content taught in a program" },
-        { word: "grassroots", meaning: "풀뿌리 — starting from the basic, local level" },
-        { word: "burnout", meaning: "번아웃 — exhaustion from too much pressure or work" }
+        { word: "academy", sound: "uh-KAD-uh-mee", meaning: "아카데미 — a specialized school for training" },
+        { word: "sophisticated", sound: "suh-FIS-tih-kay-tid", meaning: "정교한 — complex and well-developed" },
+        { word: "curriculum", sound: "kuh-RIK-yoo-lum", meaning: "교육과정 — the subjects and content taught in a program" },
+        { word: "grassroots", sound: "GRAS-roots", meaning: "풀뿌리 — starting from the basic, local level" },
+        { word: "burnout", sound: "BURN-owt", meaning: "번아웃 — exhaustion from too much pressure or work" }
       ],
       quiz: [
         { question: "At what age do European academies begin accepting players?", options: ["3–4 years old", "6–7 years old", "12–13 years old"], answerIndex: 1 },
@@ -129,6 +129,7 @@ export const apr22ProBuddy: DailyContent = {
   ],
   bonusWord: {
     word: "resilience",
+    sound: "rih-ZIL-ee-uns",
     korean: "회복력",
     example: "Earth Day reminds us of the resilience of both nature and people.",
     challenge: "Think about a time you showed resilience. What happened?"
