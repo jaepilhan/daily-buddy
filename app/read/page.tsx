@@ -81,31 +81,34 @@ export default function ReadPage() {
                 PC(md+): Words | Body | Bonus  (grid, 1fr 2fr 1fr)
               */}
               <div className="max-w-[1400px] mx-auto px-4 pb-8">
-                <div className="flex flex-col md:grid md:grid-cols-[1fr_3fr_1fr] md:gap-8 md:items-start">
+                <div className="flex flex-col md:grid md:grid-cols-[3fr_1fr] md:gap-8 md:items-start">
 
-                  {/* Left — Words to Learn (order-2 on mobile → first on PC) */}
-                  <div className="order-2 md:order-1 mt-8 md:mt-0">
-                    <WordsTable
-                      words={article.vocab}
-                      accentColor={cat.tabColor}
-                    />
+                  {/* Left column: Body + Words stacked (mobile & PC) */}
+                  <div>
+                    {/* Body paragraphs */}
+                    <div className="mt-4 md:mt-0">
+                      {article.body.map((para, i) => (
+                        <p
+                          key={i}
+                          className="text-[20px] font-semibold text-gray-800 whitespace-pre-line mb-4 last:mb-0"
+                          style={{ lineHeight: 1.8 }}
+                        >
+                          {para}
+                        </p>
+                      ))}
+                    </div>
+
+                    {/* Words to Learn — below body on both mobile and PC */}
+                    <div className="mt-8">
+                      <WordsTable
+                        words={article.vocab}
+                        accentColor={cat.tabColor}
+                      />
+                    </div>
                   </div>
 
-                  {/* Center — Body paragraphs (order-1 on mobile → center on PC) */}
-                  <div className="order-1 md:order-2 mt-4 md:mt-0">
-                    {article.body.map((para, i) => (
-                      <p
-                        key={i}
-                        className="text-[20px] font-semibold text-gray-800 whitespace-pre-line mb-4 last:mb-0"
-                        style={{ lineHeight: 1.8 }}
-                      >
-                        {para}
-                      </p>
-                    ))}
-                  </div>
-
-                  {/* Right — Bonus Word (order-3 on mobile → last on PC) */}
-                  <div className="order-3 mt-8 md:mt-0">
+                  {/* Right column — Bonus Word */}
+                  <div className="mt-8 md:mt-0">
                     <BonusWord data={dailyContent.bonusWord} />
                   </div>
                 </div>

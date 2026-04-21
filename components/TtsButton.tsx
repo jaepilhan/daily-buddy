@@ -7,13 +7,34 @@ interface TtsButtonProps {
   text: string;
 }
 
+function getPreferredVoice(): SpeechSynthesisVoice | null {
+  const voices = window.speechSynthesis.getVoices();
+  const preferred = [
+    "Microsoft Aria Online (Natural) - en-US",
+    "Microsoft Jenny Online (Natural) - en-US",
+    "Google US English",
+    "Samantha",
+    "Ava",
+    "Karen",
+  ];
+  const found = preferred.reduce<SpeechSynthesisVoice | null>((acc, name) => {
+    if (acc) return acc;
+    return voices.find((v) => v.name === name) ?? null;
+  }, null);
+  return found ?? voices.find((v) => v.lang === "en-US") ?? null;
+}
+
 export default function TtsButton({ categoryColor, text }: TtsButtonProps) {
   const [speaking, setSpeaking] = useState(false);
   const utteranceRef = useRef<SpeechSynthesisUtterance | null>(null);
 
-  // Cancel speech when component unmounts (category/level/date change)
+  // Pre-load voices (Chrome loads them async on first call)
   useEffect(() => {
+    window.speechSynthesis.getVoices();
+    const handler = () => window.speechSynthesis.getVoices();
+    window.speechSynthesis.addEventListener("voiceschanged", handler);
     return () => {
+      window.speechSynthesis.removeEventListener("voiceschanged", handler);
       window.speechSynthesis.cancel();
     };
   }, []);
@@ -27,12 +48,16 @@ export default function TtsButton({ categoryColor, text }: TtsButtonProps) {
 
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US";
-    utterance.rate = 0.9;
+    utterance.rate = 1.0;
+    utterance.pitch = 1.15;
+    const voice = getPreferredVoice();
+    if (voice) utterance.voice = voice;
+
     utterance.onend = () => setSpeaking(false);
     utterance.onerror = () => setSpeaking(false);
     utteranceRef.current = utterance;
 
-    window.speechSynthesis.cancel(); // clear any previous
+    window.speechSynthesis.cancel();
     window.speechSynthesis.speak(utterance);
     setSpeaking(true);
   }
