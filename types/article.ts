@@ -20,7 +20,7 @@ export interface CategoryConfig {
 export interface VocabWord {
   word: string;
   sound: string;
-  meaning: string;
+  meaning: string; // format: "한글 뜻 — English meaning"
 }
 
 export interface QuizQuestion {
@@ -53,5 +53,5 @@ export interface DailyContent {
   levelEmoji: string;
   ageRange: string;
   articles: Article[];
-  bonusWord: BonusWordData;
+  bonusWords: BonusWordData[];
 }

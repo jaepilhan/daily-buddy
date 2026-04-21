@@ -128,11 +128,27 @@ export const apr23ExplorerBuddy: DailyContent = {
       ]
     }
   ],
-  bonusWord: {
-    word: "discover",
-    sound: "dih-SKUV-er",
-    korean: "발견하다",
-    example: "Scientists discover amazing things every day!",
-    challenge: "What's something new you discovered this week? Tell a friend! 🔍"
-  }
+  bonusWords: [
+    {
+      word: "sedentary",
+      sound: "SED-en-teh-ree",
+      korean: "앉아서 지내는",
+      example: "A sedentary lifestyle, with too little movement, can harm your health.",
+      challenge: "Count how many hours you sit today. Can you reduce it by one hour? ⏱️",
+    },
+    {
+      word: "heritage",
+      sound: "HER-ih-tij",
+      korean: "유산",
+      example: "The gold artifacts from Panama are part of our world heritage.",
+      challenge: "Ask a family member about one piece of cultural heritage from your family. 🏛️",
+    },
+    {
+      word: "climate",
+      sound: "KLY-mit",
+      korean: "기후",
+      example: "Scientists study climate data to understand why ice is melting faster.",
+      challenge: "How is your city's climate different from another place you've visited? 🌡️",
+    },
+  ]
 };

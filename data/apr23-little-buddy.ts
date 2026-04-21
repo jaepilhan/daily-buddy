@@ -120,11 +120,27 @@ export const apr23LittleBuddy: DailyContent = {
       ]
     }
   ],
-  bonusWord: {
-    word: "discover",
-    sound: "dis-KUH-ver",
-    korean: "발견하다",
-    example: "Scientists discover new things every day!",
-    challenge: "Go outside and try to discover something new today! 🔍"
-  }
+  bonusWords: [
+    {
+      word: "ancient",
+      sound: "AYN-shunt",
+      korean: "고대의",
+      example: "The gold from Panama is very ancient — thousands of years old!",
+      challenge: "Can you find something old in your house? How old is it? 🏺",
+    },
+    {
+      word: "habitat",
+      sound: "HAB-ih-tat",
+      korean: "서식지",
+      example: "The ocean is the habitat of fish and sea animals.",
+      challenge: "Draw a picture of your favorite animal's habitat! 🐠",
+    },
+    {
+      word: "healthy",
+      sound: "HEL-thee",
+      korean: "건강한",
+      example: "Walking every day helps you stay healthy!",
+      challenge: "Tell someone: \"Let's go for a walk to stay healthy!\" 🚶",
+    },
+  ]
 };

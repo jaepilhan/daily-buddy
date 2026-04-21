@@ -109,7 +109,7 @@ export default function ReadPage() {
 
                   {/* Right column — Bonus Word */}
                   <div className="mt-8 md:mt-0">
-                    <BonusWord data={dailyContent.bonusWord} />
+                    <BonusWord data={dailyContent.bonusWords} />
                   </div>
                 </div>
               </div>

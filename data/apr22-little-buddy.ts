@@ -235,11 +235,27 @@ export const apr22LittleBuddy: DailyContent = {
       ],
     },
   ],
-  bonusWord: {
-    word: "celebrate",
-    sound: "SEL-uh-brayt",
-    korean: "축하하다",
-    example: "We celebrate Earth Day every year!",
-    challenge: "Tell someone: \"Let's celebrate Earth Day tomorrow!\" 🎉",
-  },
+  bonusWords: [
+    {
+      word: "conserve",
+      sound: "kun-SURV",
+      korean: "아끼다",
+      example: "We conserve water by turning off the tap!",
+      challenge: "Can you conserve water today? Try turning it off while brushing! 💧",
+    },
+    {
+      word: "donate",
+      sound: "DOH-nayt",
+      korean: "기부하다",
+      example: "The boy donated his lemonade money to help others.",
+      challenge: "Think of something you can donate to help a friend! 🎁",
+    },
+    {
+      word: "inspire",
+      sound: "in-SPYR",
+      korean: "영감을 주다",
+      example: "BTS inspires fans all over the world!",
+      challenge: "Who inspires you? Tell someone about them today! ⭐",
+    },
+  ],
 };

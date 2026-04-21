@@ -131,11 +131,34 @@ export const apr23ProBuddy: DailyContent = {
       ]
     }
   ],
-  bonusWord: {
-    word: "unprecedented",
-    sound: "un-PRES-ih-den-tid",
-    korean: "전례 없는",
-    example: "The discovery of gold artifacts in Panama was an unprecedented find for archeologists.",
-    challenge: "Can you think of something unprecedented that happened in your life this year?"
-  }
+  bonusWords: [
+    {
+      word: "mitigation",
+      sound: "mit-ih-GAY-shun",
+      korean: "완화",
+      example: "Carbon capture technology is one approach to climate change mitigation.",
+      challenge: "Research one climate mitigation strategy and evaluate how effective it is. 🌍",
+    },
+    {
+      word: "biodegradable",
+      sound: "by-oh-dih-GRAY-duh-bul",
+      korean: "생분해성의",
+      example: "Switching to biodegradable sponges would eliminate microplastic pollution entirely.",
+      challenge: "Check three products at home. Are any labeled biodegradable? What did you find? ♻️",
+    },
+    {
+      word: "empirical",
+      sound: "em-PEER-ih-kul",
+      korean: "경험적인",
+      example: "The walking study used empirical data from accelerometers to prove its findings.",
+      challenge: "Design a simple empirical experiment you could run at home or school. 🔬",
+    },
+    {
+      word: "paradigm",
+      sound: "PAIR-uh-dym",
+      korean: "패러다임",
+      example: "Artificial neurons could represent a paradigm shift in how we treat brain diseases.",
+      challenge: "Can you think of a paradigm shift in technology that's happening right now? 💡",
+    },
+  ]
 };

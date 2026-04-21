@@ -125,11 +125,27 @@ export const apr22ExplorerBuddy: DailyContent = {
       ]
     }
   ],
-  bonusWord: {
-    word: "protect",
-    sound: "pruh-TEKT",
-    korean: "보호하다",
-    example: "We should protect the Earth every day!",
-    challenge: "Tell a friend: \"Let's protect our planet together!\" 🌍"
-  }
+  bonusWords: [
+    {
+      word: "conservation",
+      sound: "kon-sur-VAY-shun",
+      korean: "보존",
+      example: "Conservation means protecting nature before it's too late.",
+      challenge: "Name one thing at home you can do for conservation. 🌿",
+    },
+    {
+      word: "innovative",
+      sound: "IN-oh-vay-tiv",
+      korean: "혁신적인",
+      example: "The robot fish is an innovative solution to ocean pollution.",
+      challenge: "Can you think of an innovative way to solve a problem at school? 💡",
+    },
+    {
+      word: "perseverance",
+      sound: "pur-suh-VEER-uns",
+      korean: "인내심",
+      example: "BTS showed perseverance by completing military service and returning to music.",
+      challenge: "When did YOU show perseverance? Share your story! 💪",
+    },
+  ]
 };

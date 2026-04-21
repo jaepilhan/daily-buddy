@@ -127,11 +127,34 @@ export const apr22ProBuddy: DailyContent = {
       ]
     }
   ],
-  bonusWord: {
-    word: "resilience",
-    sound: "rih-ZIL-ee-uns",
-    korean: "회복력",
-    example: "Earth Day reminds us of the resilience of both nature and people.",
-    challenge: "Think about a time you showed resilience. What happened?"
-  }
+  bonusWords: [
+    {
+      word: "sustainable",
+      sound: "suh-STAY-nuh-bul",
+      korean: "지속 가능한",
+      example: "Renewable energy is essential for a sustainable future.",
+      challenge: "Research one sustainable practice used in your city. What did you find? 🌱",
+    },
+    {
+      word: "incentive",
+      sound: "in-SEN-tiv",
+      korean: "유인책",
+      example: "Tax breaks can be an incentive for companies to adopt green energy.",
+      challenge: "Think of an incentive a government could offer to reduce plastic use. 🏛️",
+    },
+    {
+      word: "phenomenon",
+      sound: "fih-NOM-ih-non",
+      korean: "현상",
+      example: "BTS becoming a global phenomenon was unexpected by many industry experts.",
+      challenge: "Describe a cultural phenomenon you've noticed in the past year. 🌍",
+    },
+    {
+      word: "infrastructure",
+      sound: "IN-fruh-struk-cher",
+      korean: "기반 시설",
+      example: "Cities need better infrastructure to handle rising sea levels.",
+      challenge: "What infrastructure change would help your city be more eco-friendly? 🏙️",
+    },
+  ]
 };
