@@ -1,7 +1,7 @@
 import type { DailyContent } from "@/types/article";
 
 export const apr22ExplorerBuddy: DailyContent = {
-  date: "April 22, 2026",
+  date: "April 21, 2026",
   dayOfWeek: "Tuesday",
   level: "Explorer Buddy",
   levelEmoji: "🟡",
