@@ -119,7 +119,7 @@ export function useSound() {
     let tid: ReturnType<typeof setTimeout>;
 
     function scheduleLoop() {
-      if (stopped) return;
+      if (stopped || !ctx) return;
       if (!getSoundEnabled()) {
         tid = setTimeout(scheduleLoop, 500);
         return;

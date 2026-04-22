@@ -80,5 +80,5 @@ export function getGameWords(tier: AgeTier): string[] {
     const words = level[tier].length > 0 ? level[tier] : level.explorer;
     all.push(...words);
   }
-  return [...new Set(all)]; // dedupe
+  return Array.from(new Set(all));
 }

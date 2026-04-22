@@ -83,5 +83,5 @@ export function getGameWords(tier: AgeTier): string[] {
     // For game: prefer shorter words (단어 only, no spaces inside)
     all.push(...words.filter((w) => !w.includes(" ")));
   }
-  return [...new Set(all)];
+  return Array.from(new Set(all));
 }
