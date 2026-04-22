@@ -2,6 +2,9 @@ import type { DailyContent, LevelKey } from "@/types/article";
 import { apr22LittleBuddy } from "./apr22-little-buddy";
 import { apr22ExplorerBuddy } from "./apr22-explorer-buddy";
 import { apr22ProBuddy } from "./apr22-pro-buddy";
+import { apr23LittleBuddy as apr22LittleBuddyAlt } from "./apr23-little-buddy";
+import { apr23ExplorerBuddy as apr22ExplorerBuddyAlt } from "./apr23-explorer-buddy";
+import { apr23ProBuddy as apr22ProBuddyAlt } from "./apr23-pro-buddy";
 import { apr23LittleBuddy } from "./apr23LittleBuddy";
 import { apr23ExplorerBuddy } from "./apr23ExplorerBuddy";
 import { apr23ProBuddy } from "./apr23ProBuddy";
@@ -78,9 +81,9 @@ export const CONTENT: Record<
     pro_buddy: apr22ProBuddy,
   },
   apr22: {
-    little_buddy: apr22LittleBuddy,
-    explorer_buddy: apr22ExplorerBuddy,
-    pro_buddy: apr22ProBuddy,
+    little_buddy: apr22LittleBuddyAlt,
+    explorer_buddy: apr22ExplorerBuddyAlt,
+    pro_buddy: apr22ProBuddyAlt,
   },
   apr23: {
     little_buddy: apr23LittleBuddy,

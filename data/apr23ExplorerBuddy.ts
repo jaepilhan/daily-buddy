@@ -58,8 +58,8 @@ export const apr23ExplorerBuddy: DailyContent = {
       ]
     },
     {
-      id: "2026-04-23-tech-explorer",
-      category: "tech",
+      id: "2026-04-23-sports-explorer",
+      category: "sports",
       headline: "Robot Umpires Are Coming to Baseball!",
       body: [
         "Hey Explorers! Buddy here with big news for sports and tech fans.",
@@ -124,8 +124,8 @@ export const apr23ExplorerBuddy: DailyContent = {
       ]
     },
     {
-      id: "2026-04-23-sports-explorer",
-      category: "sports",
+      id: "2026-04-23-tech-explorer",
+      category: "tech",
       headline: "Artemis II Astronauts Return from Moon Flyby!",
       body: [
         "Hey Explorers! Your Buddy here with a story straight out of the space age.",

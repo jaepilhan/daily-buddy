@@ -59,8 +59,8 @@ export const apr23ProBuddy: DailyContent = {
       ]
     },
     {
-      id: "2026-04-23-tech-pro",
-      category: "tech",
+      id: "2026-04-23-sports-pro",
+      category: "sports",
       headline: "Robot Umpires Step Up to the Plate",
       body: [
         "Hey readers! Buddy here with a story about baseball's biggest tech change in decades.",
@@ -111,8 +111,8 @@ export const apr23ProBuddy: DailyContent = {
       ]
     },
     {
-      id: "2026-04-23-sports-pro",
-      category: "sports",
+      id: "2026-04-23-tech-pro",
+      category: "tech",
       headline: "Artemis II Brings Humans Back to the Moon (Almost)",
       body: [
         "Hey readers! Buddy here with a story that's been over 50 years in the making.",

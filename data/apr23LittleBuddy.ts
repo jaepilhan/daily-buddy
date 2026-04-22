@@ -59,8 +59,8 @@ export const apr23LittleBuddy: DailyContent = {
       ]
     },
     {
-      id: "2026-04-23-tech-little",
-      category: "tech",
+      id: "2026-04-23-sports-little",
+      category: "sports",
       headline: "Robots Are Watching Baseball Games Now!",
       body: [
         "Hey friends! Buddy here with an awesome story.",
@@ -109,8 +109,8 @@ export const apr23LittleBuddy: DailyContent = {
       ]
     },
     {
-      id: "2026-04-23-sports-little",
-      category: "sports",
+      id: "2026-04-23-tech-little",
+      category: "tech",
       headline: "Astronauts Come Home from the Moon!",
       body: [
         "Hey friends! This is SO exciting!",
