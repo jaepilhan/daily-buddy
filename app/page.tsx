@@ -38,13 +38,21 @@ export default function LandingPage() {
       </div>
 
       {/* CTA */}
-      <Link
-        href="/read"
-        className="inline-flex items-center gap-3 bg-orange-400 hover:bg-orange-500 text-white font-black text-lg px-8 py-4 rounded-2xl shadow-lg transition-all duration-150 hover:scale-105 hover:shadow-xl"
-      >
-        Start Reading
-        <span className="text-xl">→</span>
-      </Link>
+      <div className="flex flex-col sm:flex-row gap-3 items-center">
+        <Link
+          href="/read"
+          className="inline-flex items-center gap-3 bg-orange-400 hover:bg-orange-500 text-white font-black text-lg px-8 py-4 rounded-2xl shadow-lg transition-all duration-150 hover:scale-105 hover:shadow-xl"
+        >
+          Start Reading
+          <span className="text-xl">→</span>
+        </Link>
+        <Link
+          href="/typing"
+          className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-black text-base px-6 py-4 rounded-2xl shadow-lg transition-all duration-150 hover:scale-105 hover:shadow-xl"
+        >
+          ⌨️ Typing Practice
+        </Link>
+      </div>
 
       <p className="mt-6 text-xs font-bold text-gray-400">
         Free to read · Updated daily · No login needed

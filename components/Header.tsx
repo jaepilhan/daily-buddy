@@ -21,13 +21,21 @@ export default function Header({ levelKey }: HeaderProps) {
             Daily Buddy
           </h1>
         </Link>
-        <div className="text-right">
-          <span className="inline-flex items-center gap-1 bg-gray-100 text-gray-700 text-xs font-black px-3 py-1 rounded-full">
-            {cfg.emoji} {cfg.label} Edition
-          </span>
-          <p className="text-xs text-gray-400 mt-0.5 font-bold">
-            Ages {cfg.ages}
-          </p>
+        <div className="flex items-center gap-3">
+          <Link
+            href="/typing"
+            className="inline-flex items-center gap-1 bg-green-100 text-green-700 text-xs font-black px-3 py-1.5 rounded-full hover:bg-green-200 transition-colors"
+          >
+            ⌨️ Typing Practice
+          </Link>
+          <div className="text-right">
+            <span className="inline-flex items-center gap-1 bg-gray-100 text-gray-700 text-xs font-black px-3 py-1 rounded-full">
+              {cfg.emoji} {cfg.label} Edition
+            </span>
+            <p className="text-xs text-gray-400 mt-0.5 font-bold">
+              Ages {cfg.ages}
+            </p>
+          </div>
         </div>
       </div>
     </div>
