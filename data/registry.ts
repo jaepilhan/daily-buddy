@@ -2,9 +2,9 @@ import type { DailyContent, LevelKey } from "@/types/article";
 import { apr22LittleBuddy } from "./apr22-little-buddy";
 import { apr22ExplorerBuddy } from "./apr22-explorer-buddy";
 import { apr22ProBuddy } from "./apr22-pro-buddy";
-import { apr23LittleBuddy } from "./apr23-little-buddy";
-import { apr23ExplorerBuddy } from "./apr23-explorer-buddy";
-import { apr23ProBuddy } from "./apr23-pro-buddy";
+import { apr23LittleBuddy } from "./apr23LittleBuddy";
+import { apr23ExplorerBuddy } from "./apr23ExplorerBuddy";
+import { apr23ProBuddy } from "./apr23ProBuddy";
 
 // ─────────────────────────────────────────────────
 // LEVEL CONFIG
@@ -48,6 +48,12 @@ export const DATES: DateEntry[] = [
     label: "April 22, 2026",
     dayOfWeek: "Wednesday",
   },
+  {
+    dateKey: "apr23",
+    isoDate: "2026-04-23",
+    label: "April 23, 2026",
+    dayOfWeek: "Thursday",
+  },
 ];
 
 // ─────────────────────────────────────────────────
@@ -72,6 +78,11 @@ export const CONTENT: Record<
     pro_buddy: apr22ProBuddy,
   },
   apr22: {
+    little_buddy: apr22LittleBuddy,
+    explorer_buddy: apr22ExplorerBuddy,
+    pro_buddy: apr22ProBuddy,
+  },
+  apr23: {
     little_buddy: apr23LittleBuddy,
     explorer_buddy: apr23ExplorerBuddy,
     pro_buddy: apr23ProBuddy,

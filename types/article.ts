@@ -29,6 +29,11 @@ export interface QuizQuestion {
   answerIndex: number;
 }
 
+export type PodcastLine = {
+  speaker: "Rachel" | "James";
+  text: string;
+};
+
 export interface Article {
   id: string;
   category: CategoryId;
@@ -36,6 +41,7 @@ export interface Article {
   body: string[];
   vocab: VocabWord[];
   quiz: QuizQuestion[];
+  podcastScript?: PodcastLine[];
 }
 
 export interface BonusWordData {
