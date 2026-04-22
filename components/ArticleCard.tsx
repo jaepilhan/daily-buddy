@@ -2,6 +2,7 @@ import type { Article, LevelKey } from "@/types/article";
 import { getCategoryConfig } from "@/lib/categories";
 import ImagePlaceholder from "./ImagePlaceholder";
 import TtsButton from "./TtsButton";
+import PodcastPlayer from "./PodcastPlayer";
 
 interface ArticleCardProps {
   article: Article;
@@ -39,9 +40,12 @@ export default function ArticleCard({ article, levelKey, isoDate }: ArticleCardP
         isoDate={isoDate}
       />
 
-      {/* TTS button */}
-      <div className="mt-3">
+      {/* TTS buttons */}
+      <div className="mt-3 flex flex-wrap gap-2">
         <TtsButton categoryColor={cat.tabColor} text={article.body.join(" ")} />
+        {article.podcastScript && article.podcastScript.length > 0 && (
+          <PodcastPlayer script={article.podcastScript} cacheKey={article.id} />
+        )}
       </div>
     </div>
   );
